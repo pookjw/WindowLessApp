@@ -2,10 +2,12 @@
 //  AppDelegate.m
 //  MyApp
 //
-//  Created by Jinwoo Kim on 7/29/25.
+//  Created by Jinwoo Kim on 7/27/25.
 //
 
 #import "AppDelegate.h"
+#import "SceneDelegate.h"
+#import "LayerSceneDelegate.h"
 
 @interface AppDelegate ()
 
@@ -24,9 +26,17 @@
 
 
 - (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
+    UISceneConfiguration *configuration = [connectingSceneSession.configuration copy];
+    
+    NSUserActivity *userActivity = options.userActivities.allObjects.firstObject;
+    if ([userActivity.activityType isEqualToString:@"LayerScene"]) {
+        configuration.delegateClass = [LayerSceneDelegate class];
+    } else {
+        configuration.delegateClass = [SceneDelegate class];
+        configuration.storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:NSBundle.mainBundle];
+    }
+    
+    return [configuration autorelease];
 }
 
 
