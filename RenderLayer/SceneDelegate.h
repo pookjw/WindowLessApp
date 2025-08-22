@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.h
-//  MyApp
+//  RenderLayer
 //
-//  Created by Jinwoo Kim on 7/27/25.
+//  Created by Jinwoo Kim on 8/22/25.
 //
 
 #import <UIKit/UIKit.h>

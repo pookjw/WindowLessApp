@@ -7,35 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		4F9DF4072E363AB600C52AA3 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8799DA2E582C9200FB0392 /* RenderLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenderLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4F9DF41E2E363AB700C52AA3 /* Exceptions for "MyApp" folder in "MyApp" target */ = {
+		4F8799F12E582C9300FB0392 /* Exceptions for "RenderLayer" folder in "RenderLayer" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			platformFiltersByRelativePath = {
-				"/Localized: LaunchScreen.storyboard" = (ios, );
-			};
-			target = 4F9DF4062E363AB600C52AA3 /* MyApp */;
+			target = 4F8799D92E582C9200FB0392 /* RenderLayer */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4F9DF4092E363AB600C52AA3 /* MyApp */ = {
+		4F8799DC2E582C9200FB0392 /* RenderLayer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				4F9DF41E2E363AB700C52AA3 /* Exceptions for "MyApp" folder in "MyApp" target */,
+				4F8799F12E582C9300FB0392 /* Exceptions for "RenderLayer" folder in "RenderLayer" target */,
 			);
-			path = MyApp;
+			path = RenderLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F9DF4042E363AB600C52AA3 /* Frameworks */ = {
+		4F8799D72E582C9200FB0392 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F9DF3FE2E363AB600C52AA3 = {
+		4F8799D12E582C9200FB0392 = {
 			isa = PBXGroup;
 			children = (
-				4F9DF4092E363AB600C52AA3 /* MyApp */,
-				4F9DF4082E363AB600C52AA3 /* Products */,
+				4F8799DC2E582C9200FB0392 /* RenderLayer */,
+				4F8799DB2E582C9200FB0392 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F9DF4082E363AB600C52AA3 /* Products */ = {
+		4F8799DB2E582C9200FB0392 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F9DF4072E363AB600C52AA3 /* MyApp.app */,
+				4F8799DA2E582C9200FB0392 /* RenderLayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,63 +61,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F9DF4062E363AB600C52AA3 /* MyApp */ = {
+		4F8799D92E582C9200FB0392 /* RenderLayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F9DF41F2E363AB700C52AA3 /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildConfigurationList = 4F8799F22E582C9300FB0392 /* Build configuration list for PBXNativeTarget "RenderLayer" */;
 			buildPhases = (
-				4F9DF4032E363AB600C52AA3 /* Sources */,
-				4F9DF4042E363AB600C52AA3 /* Frameworks */,
-				4F9DF4052E363AB600C52AA3 /* Resources */,
+				4F8799D62E582C9200FB0392 /* Sources */,
+				4F8799D72E582C9200FB0392 /* Frameworks */,
+				4F8799D82E582C9200FB0392 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4F9DF4092E363AB600C52AA3 /* MyApp */,
+				4F8799DC2E582C9200FB0392 /* RenderLayer */,
 			);
-			name = MyApp;
+			name = RenderLayer;
 			packageProductDependencies = (
 			);
-			productName = MyApp;
-			productReference = 4F9DF4072E363AB600C52AA3 /* MyApp.app */;
+			productName = RenderLayer;
+			productReference = 4F8799DA2E582C9200FB0392 /* RenderLayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F9DF3FF2E363AB600C52AA3 /* Project object */ = {
+		4F8799D22E582C9200FB0392 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					4F9DF4062E363AB600C52AA3 = {
+					4F8799D92E582C9200FB0392 = {
 						CreatedOnToolsVersion = 26.0;
 					};
 				};
 			};
-			buildConfigurationList = 4F9DF4022E363AB600C52AA3 /* Build configuration list for PBXProject "MyApp" */;
+			buildConfigurationList = 4F8799D52E582C9200FB0392 /* Build configuration list for PBXProject "RenderLayer" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4F9DF3FE2E363AB600C52AA3;
+			mainGroup = 4F8799D12E582C9200FB0392;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4F9DF4082E363AB600C52AA3 /* Products */;
+			productRefGroup = 4F8799DB2E582C9200FB0392 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F9DF4062E363AB600C52AA3 /* MyApp */,
+				4F8799D92E582C9200FB0392 /* RenderLayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F9DF4052E363AB600C52AA3 /* Resources */ = {
+		4F8799D82E582C9200FB0392 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,7 +127,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F9DF4032E363AB600C52AA3 /* Sources */ = {
+		4F8799D62E582C9200FB0392 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -140,7 +137,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4F9DF4202E363AB700C52AA3 /* Debug */ = {
+		4F8799F32E582C9300FB0392 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -149,7 +146,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P53D29U9LJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyApp/Info.plist;
+				INFOPLIST_FILE = RenderLayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -159,17 +156,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.RenderLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
-		4F9DF4212E363AB700C52AA3 /* Release */ = {
+		4F8799F42E582C9300FB0392 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -178,7 +177,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P53D29U9LJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyApp/Info.plist;
+				INFOPLIST_FILE = RenderLayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -188,17 +187,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.RenderLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
-		4F9DF4222E363AB700C52AA3 /* Debug */ = {
+		4F8799F52E582C9300FB0392 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,7 +261,7 @@
 			};
 			name = Debug;
 		};
-		4F9DF4232E363AB700C52AA3 /* Release */ = {
+		4F8799F62E582C9300FB0392 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F9DF4022E363AB600C52AA3 /* Build configuration list for PBXProject "MyApp" */ = {
+		4F8799D52E582C9200FB0392 /* Build configuration list for PBXProject "RenderLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F9DF4222E363AB700C52AA3 /* Debug */,
-				4F9DF4232E363AB700C52AA3 /* Release */,
+				4F8799F52E582C9300FB0392 /* Debug */,
+				4F8799F62E582C9300FB0392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F9DF41F2E363AB700C52AA3 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+		4F8799F22E582C9300FB0392 /* Build configuration list for PBXNativeTarget "RenderLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F9DF4202E363AB700C52AA3 /* Debug */,
-				4F9DF4212E363AB700C52AA3 /* Release */,
+				4F8799F32E582C9300FB0392 /* Debug */,
+				4F8799F42E582C9300FB0392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F9DF3FF2E363AB600C52AA3 /* Project object */;
+	rootObject = 4F8799D22E582C9200FB0392 /* Project object */;
 }
